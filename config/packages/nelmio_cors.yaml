@@ -1,0 +1,11 @@
+nelmio_cors:
+    defaults:
+        allow_credentials: true
+        allow_origin: ['*']  # Remplace * par ton domaine si tu veux être plus restrictif
+        allow_headers: ['Authorization', 'Content-Type', 'X-Requested-With']
+        allow_methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+    paths:
+        '^/api/':  # Applique cette règle uniquement aux routes API
+            allow_origin: ['*']  # Remplace * par ton frontend si nécessaire
+            allow_headers: ['Authorization', 'Content-Type', 'X-Requested-With']
+
