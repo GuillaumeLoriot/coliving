@@ -1,4 +1,6 @@
-## Déploiement Back-end
+# Déploiement Back-end
+
+## Api accessible à l'adresse: 35.195.2.21/api
 
 <img width="1918" height="1016" alt="image" src="https://github.com/user-attachments/assets/05859eb9-939e-4439-a7e5-bba72ef62108" />
 
