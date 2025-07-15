@@ -3,7 +3,7 @@ api_platform:
     type: api_platform
     prefix: /api
 
-api_doc:
-    path: /
-    methods: GET
-    defaults: { _controller: api_platform.swagger_ui.action }
+# api_doc:
+#     path: /
+#     methods: GET
+#     # defaults: { _controller: api_platform.swagger_ui.action }
